@@ -7,7 +7,9 @@ User provides token A and B and receives LP tokens (share tokens) representing t
 ## First liquidity provider:
 
 If the pool is empty:
+
 Formula:
+
 liquidity = sqrt(amountA * amountB)
 
 Why:
@@ -18,7 +20,9 @@ Why:
 ## Next liquidity providers:
 
 User must deposit tokens in the same ratio as the pool:
+
 Formula:
+
 amountA / reserveA == amountB / reserveB
 
 Liquidity is calculated as:
