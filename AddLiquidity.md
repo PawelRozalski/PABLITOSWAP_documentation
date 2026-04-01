@@ -26,8 +26,11 @@ Formula:
 amountA / reserveA == amountB / reserveB
 
 Liquidity is calculated as:
+
 liquidityA = (amountA * totalLiquidity) / reserveA  
+
 liquidityB = (amountB * totalLiquidity) / reserveB  
+
 
 liquidity = min(liquidityA, liquidityB)
 
