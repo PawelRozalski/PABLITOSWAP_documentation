@@ -9,6 +9,7 @@ User burns share tokens to receive token A and token B proportionally to their s
 Formula:
 
 amountA = (liquidity * reserveA) / totalLiquidity
+
 amountB = (liquidity * reserveB) / totalLiquidity
 
 
