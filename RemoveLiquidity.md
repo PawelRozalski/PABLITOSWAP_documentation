@@ -13,6 +13,7 @@ amountA = (liquidity * reserveA) / totalLiquidity
 amountB = (liquidity * reserveB) / totalLiquidity
 
 
+
 Why:
 
 Share tokens represent the user proportional ownership of the entire pool
