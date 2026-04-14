@@ -53,3 +53,13 @@ Why:
 
 - wrong ratio = revert
 - liquidity == 0 ,revert (rounding issue or too small deposit)
+
+
+## Security
+
+State is updated after tokens are transferred to the contract
+
+
+## Notes
+
+Adding liquidity must preserve the pool ratio to avoid price changes
