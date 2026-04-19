@@ -11,7 +11,9 @@ It does not modify the contract state
 - applies the swap fee (0.3%)
 - determines input and output reserves based on the selected token
 - calculates the output amount using the constant product formula (x * y = k)
+  
 Formula:
+
 amountOut = (amountInWithFee * reserveOut) / (reserveIn + amountInWithFee)
 
 Why:
