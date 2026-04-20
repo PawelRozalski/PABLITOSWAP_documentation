@@ -17,6 +17,7 @@ Formula:
 amountOut = (amountInWithFee * reserveOut) / (reserveIn + amountInWithFee)
 
 Why:
+
 The function allows:
 - frontends to display estimated swap results
 - bots and external systems to evaluate trades
