@@ -81,9 +81,13 @@ reserveA -= amountOut
 ## Edge Cases:
 
 amountIn == 0 > revert
+
 amountOut == 0 > revert
+
 invalid tokenIn > revert
+
 insufficient liquidity > revert
+
 slippage exceeded > revert
 
 
