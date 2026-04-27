@@ -2,7 +2,9 @@
 
 ## Goal:
 
-Swap allows user to exchange one token for another (token A > token B or token B > token A) based on the AMM model. The user provides tokenIn and receives tokenOut
+Swap allows user to exchange one token for another (token A > token B or token B > token A) based on the AMM model. 
+
+The user provides tokenIn and receives tokenOut
 
 
 ## Function signature:
