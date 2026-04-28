@@ -33,6 +33,7 @@ Contracts:
 
 
 
+
 Protocol flow PablitoSwapLP contract:
 
 > Add Liquidity
@@ -63,6 +64,7 @@ User > swap(tokenIn, amountIn)
 - amountOut calculated (AMM formula)
 - tokens transferred
 - reserves updated
+
 
 
 Work:
